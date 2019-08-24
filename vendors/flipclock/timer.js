@@ -1,10 +1,10 @@
 var today = new Date();
 
 var timer = function() {};
-timer.countdownDate = new Date();
+timer.countdownDate = new Date(2020, 10, 24, 18, 00, 00, 00);
 
 // set date to 10 days in the future for testing purposes
-timer.countdownDate.setDate( timer.countdownDate.getDate() + 10 );
+//timer.countdownDate.setDate( timer.countdownDate.getDate() + 10 );
 
 /*
 * Get thing started
