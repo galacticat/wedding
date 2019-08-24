@@ -1,4 +1,6 @@
-owl.data('owl.carousel').options.loop = false;
+var $carousel = $('#carousel');
+var owl = $carousel.data('owlCarousel'); # Your DOM element gets an 'owlCarousel' data property containing the Owl object. 
+owl.reinit({loop: false});
 
 ;(function($){
     "use strict"
@@ -45,15 +47,6 @@ owl.data('owl.carousel').options.loop = false;
         }
     }
     testimonialSlider();
-	
-    function clientSlider(){
-        if ( $('.client_slider').length ){
-            $('.client_slider').owlCarousel({
-                loop:false
-            })
-        }
-    }
-    clientSlider();
     
     //------- Mailchimp js --------//  
 
