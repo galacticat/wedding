@@ -1,3 +1,5 @@
+owl.data('owl.carousel').options.loop = false;
+
 ;(function($){
     "use strict"
     var nav_offset_top = $('.header_area').height()+50; 
@@ -43,6 +45,15 @@
         }
     }
     testimonialSlider();
+	
+    function clientSlider(){
+        if ( $('.client_slider').length ){
+            $('.client_slider').owlCarousel({
+                loop:false
+            })
+        }
+    }
+    clientSlider();
     
     //------- Mailchimp js --------//  
 
