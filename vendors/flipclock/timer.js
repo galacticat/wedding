@@ -6,7 +6,7 @@ timer.countdownDate = new Date();
 // set date to 10 days in the future for testing purposes
 timer.countdownDate.setDate(24);
 timer.countdownDate.setFullYear(2020);
-timer.countdownDate.setMonth(10);
+timer.countdownDate.setMonth(9);
 timer.countdownDate.setHours(18);
 timer.countdownDate.setMinutes(0);
 timer.countdownDate.setSeconds(0);
