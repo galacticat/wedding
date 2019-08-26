@@ -1,10 +1,15 @@
 var today = new Date();
 
 var timer = function() {};
-timer.countdownDate = new Date(2020, 10, 24, 18, 00, 00, 00);
+timer.countdownDate = new Date();
 
 // set date to 10 days in the future for testing purposes
-//timer.countdownDate.setDate( timer.countdownDate.getDate() + 10 );
+timer.countdownDate.setDate(24);
+timer.countdownDate.setFullYear(2020);
+timer.countdownDate.setMonth(10);
+timer.countdownDate.setHours(18);
+timer.countdownDate.setMinutes(0);
+timer.countdownDate.setSeconds(0);
 
 /*
 * Get thing started
